@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.form{
+    width: 400px;
+    height:400px;
+    background-color: blue;
+   margin: 200px auto;
+   align-items: center;
+   justify-content: center;
+
+}
+.form h1{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+}
+form{
+    margin: 20px auto;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    width: 60%;
+    height:30px;
+
+border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;}
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>Login Form</h1>
+    <form>
+        <label for="#">Email</label>
+        <input type="text" placeholder="Enter your email"   required>
+        <label for="#">Password</label>
+        <input type="text">
+        <button>Login</button>
+        <a href="./Signup.html">Signup</a>
+    </form>
+    </div>
+</body>
+</html>
